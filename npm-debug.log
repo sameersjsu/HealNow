@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-r',
+1 verbose cli   'nodemon' ]
+2 warn invalid config registry="nodemon"
+3 warn invalid config Must be a full url with 'http://'
+4 info using npm@3.10.10
+5 info using node@v6.9.5
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readLocalPackageData
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly loadAllDepsIntoIdealTree Finishing
+22 silly loadIdealTree Finishing
+23 silly currentTree 295_samtest
+24 silly idealTree 295_samtest
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly runTopLevelLifecycles Starting
+31 silly install runPreinstallTopLevelLifecycles
+32 silly preinstall 295_samtest /Users/sameer/Desktop/295_samtest/295_samtest-6fa100cf
+33 info lifecycle undefined~preinstall: undefined
+34 silly lifecycle undefined~preinstall: no script for preinstall, continuing
+35 silly executeActions Starting
+36 silly install executeActions
+37 silly doSerial global-install 0
+38 silly doParallel fetch 0
+39 verbose correctMkdir /Users/sameer/.npm/_locks correctMkdir not in flight; initializing
+40 verbose lock using /Users/sameer/.npm/_locks/staging-72a7c1256c813ee7.lock for /Users/sameer/Desktop/295_samtest/node_modules/.staging
+41 verbose unlock done using /Users/sameer/.npm/_locks/staging-72a7c1256c813ee7.lock for /Users/sameer/Desktop/295_samtest/node_modules/.staging
+42 silly rollbackFailedOptional Starting
+43 silly rollbackFailedOptional Finishing
+44 silly runTopLevelLifecycles Finishing
+45 silly install printInstalled
+46 warn enoent ENOENT: no such file or directory, open '/Users/sameer/Desktop/295_samtest/package.json'
+47 verbose enoent ENOENT: no such file or directory, open '/Users/sameer/Desktop/295_samtest/package.json'
+47 verbose enoent This is most likely not a problem with npm itself
+47 verbose enoent and is related to npm not being able to find a file.
+48 warn 295_samtest No description
+49 verbose If you need help, you may report this error at:
+49 verbose     <https://github.com/npm/npm/issues>
+50 warn 295_samtest No repository field.
+51 verbose If you need help, you may report this error at:
+51 verbose     <https://github.com/npm/npm/issues>
+52 warn 295_samtest No README data
+53 verbose If you need help, you may report this error at:
+53 verbose     <https://github.com/npm/npm/issues>
+54 warn 295_samtest No license field.
+55 verbose If you need help, you may report this error at:
+55 verbose     <https://github.com/npm/npm/issues>
+56 verbose stack Error: ENOTDIR: not a directory, unlink '/Users/sameer/Desktop/295_samtest/node_modules/.staging'
+56 verbose stack     at Error (native)
+57 verbose cwd /Users/sameer/Desktop/295_samtest
+58 error Darwin 16.1.0
+59 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-r" "nodemon"
+60 error node v6.9.5
+61 error npm  v3.10.10
+62 error path /Users/sameer/Desktop/295_samtest/node_modules/.staging
+63 error code ENOTDIR
+64 error errno -20
+65 error syscall unlink
+66 error ENOTDIR: not a directory, unlink '/Users/sameer/Desktop/295_samtest/node_modules/.staging'
+67 error If you need help, you may report this error at:
+67 error     <https://github.com/npm/npm/issues>
+68 verbose exit [ -20, true ]
